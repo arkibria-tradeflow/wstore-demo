@@ -1,0 +1,19 @@
+{
+  "id": "./",
+  "name": "GMS Store — Wholesale Showroom",
+  "short_name": "GMS Store",
+  "description": "Browse wholesale mobile parts and accessories and prepare multi-item enquiries.",
+  "start_url": "./#home",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#273237",
+  "icons": [
+    {
+      "src": "assets/gms-store-logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
