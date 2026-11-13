@@ -217,3 +217,59 @@ header .gms-header-mark .gms-logo-symbol{width:100%!important;height:100%!import
 /* Display the original uploaded logo without a frame or altered design. */
 header .gms-header-mark{background:transparent!important;border:0!important;border-radius:0!important;box-shadow:none!important;padding:0!important}
 header .gms-header-mark img.gms-logo-symbol{object-fit:contain!important}
+
+/* Storefront */
+.storefront{max-width:1100px;margin:4px auto 0;color:#233331}
+.storefront svg{width:21px;height:21px;flex-shrink:0}
+.sf-cover{height:250px;border-radius:24px 24px 0 0;position:relative;overflow:hidden;background:#52605f}
+.sf-cover>img{width:100%;height:100%;object-fit:cover;object-position:center}
+.sf-cover:after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 50%,rgba(13,29,27,.5))}
+.sf-since{position:absolute;bottom:18px;right:22px;z-index:1;color:white;font-size:11px;letter-spacing:.5px}
+.sf-profile{position:relative;padding:25px 32px 28px;background:#fff;border:1px solid #e5ebe7;border-top:0;border-radius:0 0 24px 24px}
+.sf-logo{position:absolute;width:74px;height:74px;object-fit:contain;top:-39px;left:30px;background:white;border-radius:18px;padding:8px;z-index:2;box-shadow:0 4px 15px #17382a10}
+.sf-location{display:flex;align-items:center;gap:5px;font-size:10px;font-weight:700;letter-spacing:1.3px;color:#687b73;margin-top:23px}
+.sf-location svg{width:13px;height:13px}
+.sf-profile h1{font-size:36px!important;line-height:1.2!important;letter-spacing:-1.2px!important;margin:12px 0 8px!important}
+.sf-profile p{font-size:17px;margin:0 0 8px;line-height:1.5}
+.sf-description{color:#78847e;font-size:12px;line-height:1.6;display:block}
+.sf-actions{display:flex;gap:10px;margin-top:22px}
+.sf-actions a{display:flex;justify-content:center;align-items:center;gap:9px;min-height:48px;border-radius:12px;font-size:13px;font-weight:700;padding:12px 22px}
+.sf-primary{background:#167b55;color:white}.sf-call{border:1px solid #dce5df;color:#284a3b;background:white}
+.sf-content{display:grid;grid-template-columns:1.5fr 1fr;gap:22px;margin-top:26px}
+.sf-main,.sf-side{display:flex;flex-direction:column;gap:22px}
+.sf-visit,.sf-contact,.sf-social{padding:25px;border:1px solid #e2e9e4;border-radius:20px;background:white}
+.sf-eyebrow{font-size:9px;letter-spacing:1.6px;font-weight:700;color:#71877b}
+.storefront h2{font-size:23px;letter-spacing:-.7px;line-height:1.25;margin:9px 0 20px}
+.sf-section-title{display:flex;align-items:center;justify-content:space-between}
+.sf-pin{display:grid;place-items:center;background:#edf5ef;color:#2e7958;width:42px;height:42px;border-radius:50%}
+.sf-map{height:240px;position:relative;border-radius:14px;overflow:hidden;background:#edf2ed;border:1px solid #e3e9e3}
+.sf-map iframe{width:100%;height:100%;border:0}
+.sf-map>a{position:absolute;bottom:12px;left:12px;display:flex;align-items:center;gap:8px;background:white;box-shadow:0 3px 14px #102a2520;padding:10px 13px;border-radius:8px;font-size:11px;font-weight:700}
+.sf-map>a svg{width:15px;height:15px}
+.sf-address{padding-top:18px}.sf-address h3{font-size:14px;margin:0 0 6px}.sf-address p{font-size:12px;line-height:1.8;color:#758078;margin:0}
+.sf-directions{display:flex;align-items:center;gap:8px;font-weight:700;font-size:12px;color:#17734f;margin-top:15px}
+.sf-directions svg{width:17px;height:17px}
+.sf-range{position:relative;overflow:hidden;background:#263e35;border-radius:20px;padding:28px;color:white}
+.sf-range .sf-eyebrow{color:#a9c9b8}.sf-range h2{font-size:28px;margin:12px 0}.sf-range p{max-width:300px;font-size:12px;line-height:1.8;color:#cadbd1}
+.sf-range a{position:relative;z-index:1;display:inline-flex;align-items:center;gap:20px;border-bottom:1px solid #85b49b;padding:8px 0;font-size:12px;font-weight:700}
+.sf-range-orbit{position:absolute;right:-80px;bottom:-95px;width:260px;height:260px;border:1px solid #71908055;border-radius:50%;box-shadow:0 0 0 30px #71908012,0 0 0 60px #71908008}
+.sf-contact-number{display:flex;gap:10px;align-items:center;font-size:17px;font-weight:700;color:#20744f}
+.sf-contact p{font-size:12px;color:#77857d;line-height:1.9;margin:17px 0 21px}
+.sf-hours{display:flex;gap:12px;padding-top:20px;border-top:1px solid #e8ede9;color:#6c8175}
+.sf-hours b,.sf-hours span{display:block;font-size:11px;line-height:1.7}.sf-hours span{font-size:10px;margin-top:3px;color:#859087}
+.sf-social-links{display:flex;gap:12px}.sf-social-links>a,.sf-social-pending{width:43px;height:43px;border:1px solid #e2e9e4;border-radius:12px;display:grid;place-items:center;color:#355946}
+.sf-social-pending{color:#9ca89f;background:#f7f9f6}.sf-social-wa{background:#eaf5ed}
+.sf-social-note{font-size:11px;color:#869086;line-height:1.8;margin:15px 0 0}
+.sf-bottom{display:flex;align-items:center;gap:12px;border-top:1px solid #e1e8e2;margin-top:28px;padding:22px 0;font-size:11px;color:#738176}.sf-bottom img{width:26px;height:26px;object-fit:contain}.sf-bottom b{margin-left:auto;font-size:8px;letter-spacing:1px}
+body:has(.storefront) .sitefooter{display:none}
+@media(max-width:600px){
+main:has(.storefront){padding:16px 18px 100px!important}
+.sf-cover{height:145px;border-radius:18px 18px 0 0}.sf-since{font-size:8px;bottom:14px;right:14px}
+.sf-profile{padding:25px 20px 22px;border-radius:0 0 18px 18px}.sf-logo{left:18px;width:62px;height:62px;top:-32px;padding:6px;border-radius:14px}
+.sf-location{margin-top:15px;font-size:8px;letter-spacing:1px}.sf-profile h1{font-size:29px!important;margin-top:10px!important}.sf-profile p{font-size:14px}.sf-description{font-size:11px}
+.sf-actions{margin-top:18px}.sf-actions a{flex:1;min-height:46px;padding:11px 8px;font-size:12px;gap:7px}.sf-actions svg{width:18px;height:18px}
+.sf-content{grid-template-columns:1fr;gap:18px;margin-top:20px}.sf-main,.sf-side{gap:18px}.sf-visit,.sf-contact,.sf-social{padding:20px;border-radius:18px}
+.storefront h2{font-size:22px}.sf-map{height:225px}.sf-range{padding:24px;border-radius:18px}.sf-range h2{font-size:27px}
+.sf-bottom{font-size:9px;gap:8px}.sf-bottom b{font-size:7px;white-space:nowrap}
+}
+@media(prefers-reduced-motion:no-preference){.sf-actions a,.sf-social-links a{transition:transform .18s,box-shadow .18s}.sf-actions a:hover,.sf-social-links a:hover{transform:translateY(-2px);box-shadow:0 5px 15px #153e2515}}
