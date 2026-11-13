@@ -154,3 +154,21 @@ button.catalog-thumb{appearance:none;cursor:zoom-in;padding:0;text-align:inherit
 .gms-hero:after{width:210px!important;height:126px!important;right:-125px!important;bottom:-100px!important}
 }
 @media(min-width:601px) and (max-width:900px){.gms-hero .herocopy{padding:28px 34px!important}.gms-hero h1{font-size:34px!important}}
+
+/* Mobile 2:1 landscape hero: balanced negative space and compact CTA */
+@media(max-width:600px){
+.gms-hero{aspect-ratio:2/1!important;min-height:0!important;height:auto!important;display:flex!important;align-items:center!important;border-radius:17px!important}
+.gms-hero .herocopy{width:100%;padding:14px 18px 15px!important}
+.gms-hero-brand{gap:6px!important;margin-bottom:9px!important}
+.gms-hero-brand .gms-logo-symbol{width:27px!important;height:27px!important}
+.gms-hero-wordmark{gap:4px!important}
+.gms-hero-wordmark strong{font-size:20px!important;letter-spacing:-.7px!important}
+.gms-hero-wordmark span{font-size:14px!important}
+.gms-since{font-size:6px!important;letter-spacing:2px!important;margin-top:1px!important}
+.gms-hero h1{font-size:clamp(15px,4.05vw,20px)!important;line-height:1.22!important;letter-spacing:-.25px!important;margin:0 0 7px!important;max-width:100%!important}
+.gms-hero p{font-size:10px!important;line-height:1.36!important;max-width:285px!important;margin:0 0 10px!important}
+.gms-hero .gms-hero-cta{font-size:10px!important;padding:7px 11px!important;gap:8px!important;border-radius:8px!important;box-shadow:none!important}
+.gms-hero:before{width:150px!important;height:95px!important;right:-90px!important;bottom:-66px!important}
+.gms-hero:after{width:154px!important;height:98px!important;right:-93px!important;bottom:-80px!important}
+}
+@media(max-width:350px){.gms-hero .herocopy{padding:11px 14px!important}.gms-hero-brand{margin-bottom:5px!important}.gms-hero h1{font-size:14px!important;margin-bottom:5px!important}.gms-hero p{font-size:9px!important;margin-bottom:6px!important}.gms-hero .gms-hero-cta{padding:6px 9px!important}}
