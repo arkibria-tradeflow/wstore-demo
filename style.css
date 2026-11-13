@@ -332,3 +332,44 @@ main:has(.storefront){padding:14px 16px 95px!important}
 .sf-contact p{font-size:11px}.sf-business-facts>div{font-size:10px;padding:9px 0}
 .sf-hours span{font-size:10px}.sf-bottom{margin-top:17px!important}
 }
+
+/* Compact store profile and integrated utility footer */
+.storefront .sf-profile{padding:17px 20px!important}
+.storefront .sf-profile h1{font-size:26px!important;margin:0 0 5px!important}
+.sf-business-tags{margin-top:9px!important}.sf-actions{margin-top:14px!important}
+.sf-content{gap:14px!important;margin-top:14px!important}
+.sf-side,.sf-main{gap:14px!important}
+.sf-visit,.sf-contact{padding:18px!important}
+.storefront h2{font-size:19px!important;margin:0 0 13px!important}
+.sf-section-title .sf-pin{display:none}
+.sf-address{padding-top:12px!important}
+.sf-business-facts>div{padding:8px 0!important}
+.sf-hours{margin-top:12px!important;padding-top:12px!important}
+.sf-smart-footer{border-top:1px solid #e4eae6;margin-top:20px;padding:18px 0 0}
+.sf-footer-top{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.sf-footer-top>div:first-child>b{font-size:12px;display:block;color:#344c40}
+.sf-footer-top>div:first-child>span{display:block;font-size:9px;color:#7b897f;margin-top:5px}
+.sf-smart-footer .sf-social-links{gap:6px}
+.sf-smart-footer .sf-social-links>a,.sf-smart-footer .sf-social-pending{width:36px;height:36px;border-radius:50%}
+.sf-smart-footer .sf-social-links svg{width:17px;height:17px}
+.sf-footer-links{display:flex;gap:18px;flex-wrap:wrap;margin-top:16px;padding-bottom:13px;font-size:10px;color:#527160}
+.sf-footer-links a{min-height:30px;display:flex;align-items:center}
+.sf-footer-note{padding:11px 0;border-top:1px solid #edf0ed;color:#8a948c;font-size:9px}
+@media(max-width:600px){
+main:has(.storefront){padding:12px 14px 80px!important;min-height:0!important}
+.storefront .sf-profile{padding:15px 16px!important}
+.storefront .sf-profile h1{font-size:24px!important}
+.sf-profile .sf-business-type{font-size:11px!important;line-height:1.5}
+.sf-business-tags span{font-size:8px!important;padding:4px 7px!important}
+.sf-actions a{min-height:44px!important;font-size:12px!important}
+.sf-visit,.sf-contact{padding:16px!important}
+.storefront h2{font-size:18px!important;margin:0 0 12px!important}
+.sf-map{height:160px!important}
+.sf-address p{font-size:11px!important;line-height:1.6!important}
+.sf-address .sf-directions{margin-top:8px!important;min-height:36px}
+.sf-content{gap:12px!important;margin-top:12px!important}
+.sf-catalogue-link{padding-top:10px}
+.sf-smart-footer{margin-top:17px;padding-top:14px}
+.sf-footer-top{flex-wrap:wrap}
+.sf-footer-links{margin-top:9px;justify-content:space-between;gap:12px;padding-bottom:6px}
+}
