@@ -99,3 +99,12 @@ main{padding-top:8px}
 .catalog-filters select{width:100%;min-width:0;background:#fff;border:1px solid #dbe2ef;border-radius:9px;padding:9px 8px;color:#081641;font-size:12px}
 .catalog-filters #clearfilters{border:0;background:none;color:#0757f8;font-size:12px;padding:9px 4px}
 @media(min-width:601px){.catalog-thumb{width:86px!important;height:115px!important}}
+
+/* Tap listing image to preview without navigation */
+button.catalog-thumb{appearance:none;cursor:zoom-in;padding:0;text-align:inherit}
+.photo-preview-open{overflow:hidden}
+.photo-preview-overlay{position:fixed;inset:0;z-index:99999;background:rgba(9,18,39,.84);display:flex;align-items:center;justify-content:center;padding:18px}
+.photo-preview-panel{position:relative;background:#fff;border-radius:15px;width:min(100%,480px);max-height:90dvh;padding:48px 14px 18px;display:flex;flex-direction:column;align-items:center;gap:12px}
+.photo-preview-panel img{display:block;max-width:100%;width:auto;height:auto;max-height:calc(90dvh - 135px);object-fit:contain}
+.photo-preview-close{position:absolute;right:12px;top:9px;border:0;background:#f1f4f9;border-radius:50%;width:36px;height:36px;font-size:26px;line-height:1;color:#172443;cursor:pointer}
+.photo-preview-caption{font-size:13px;font-weight:600;text-align:center;color:#172443}
