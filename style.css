@@ -118,3 +118,23 @@ button.catalog-thumb{appearance:none;cursor:zoom-in;padding:0;text-align:inherit
 .photo-preview-panel img{width:100%!important;height:100%!important;max-height:none!important;object-fit:contain!important;object-position:center!important;padding:2px!important;box-sizing:border-box}
 .photo-preview-panel>img{aspect-ratio:1/1!important;max-height:min(65dvh,450px)!important}
 @media(min-width:601px){.catalog-thumb{width:90px!important;height:90px!important}}
+
+/* GMS signboard-inspired brand identity and homepage hero */
+.gms-header-mark{background:transparent!important;border-radius:0!important;overflow:visible;display:flex;align-items:center;justify-content:center}
+.gms-logo-symbol{width:100%;height:100%;display:block;flex-shrink:0}
+.gms-header-wordmark{font-weight:800;letter-spacing:-.4px!important;color:#123f35;background:linear-gradient(110deg,#14865a 10%,#152b30 75%);background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.gms-hero{position:relative!important;display:block!important;min-height:0!important;overflow:hidden!important;background:linear-gradient(120deg,#202b2f 0%,#39474b 70%,#283438 100%)!important;color:#fff!important;border-radius:24px!important}
+.gms-hero:before{content:'';position:absolute;pointer-events:none;bottom:-175px;right:-120px;width:420px;height:285px;background:linear-gradient(135deg,#ff4965,#a90e37);border-radius:50%;transform:rotate(-20deg)}
+.gms-hero:after{content:'';position:absolute;pointer-events:none;bottom:-205px;right:-105px;width:430px;height:275px;background:linear-gradient(135deg,#48dc9d,#0c6c49);border-radius:50%;transform:rotate(-20deg)}
+.gms-hero .herocopy{position:relative;z-index:1;padding:36px 40px 44px!important;max-width:850px}
+.gms-hero-brand{display:flex;align-items:center;gap:13px;margin-bottom:27px}
+.gms-hero-brand .gms-logo-symbol{width:68px;height:68px}
+.gms-hero-wordmark{display:flex;align-items:baseline;gap:8px;font-family:Manrope,Arial,sans-serif;line-height:1;white-space:nowrap}
+.gms-hero-wordmark strong{font-size:46px;font-weight:800;letter-spacing:-2px;background:linear-gradient(110deg,#5ff0b7,#c7fff0);-webkit-background-clip:text;background-clip:text;color:transparent}
+.gms-hero-wordmark span{font-size:31px;font-weight:700;color:#f2f6f6}
+.gms-since{text-align:right;color:#f0a1b4;letter-spacing:5px;font-size:12px;font-weight:800;margin-top:5px}
+.gms-hero h1{color:#fff!important;font-size:clamp(27px,4vw,47px)!important;line-height:1.18!important;letter-spacing:-1.3px!important;margin:0 0 16px!important;max-width:760px}
+.gms-hero h1 em{font-style:normal;color:#a5f5e3}
+.gms-hero p{color:#dce5e9!important;font-size:16px!important;line-height:1.55!important;max-width:530px!important;margin:0 0 25px!important}
+.gms-hero .gms-hero-cta{background:linear-gradient(140deg,#37c959,#188f39)!important;border:1px solid #7be891!important;box-shadow:0 4px 0 #115d2b66;color:#fff!important;font-size:16px!important;padding:14px 22px!important;border-radius:14px!important;gap:14px}
+@media(max-width:600px){.gms-hero{border-radius:18px!important}.gms-hero .herocopy{padding:26px 23px 31px!important}.gms-hero-brand{gap:9px;margin-bottom:24px}.gms-hero-brand .gms-logo-symbol{width:47px;height:47px}.gms-hero-wordmark{gap:5px}.gms-hero-wordmark strong{font-size:32px;letter-spacing:-1px}.gms-hero-wordmark span{font-size:22px}.gms-since{font-size:9px;letter-spacing:3px}.gms-hero h1{font-size:clamp(27px,7.4vw,34px)!important;letter-spacing:-.9px!important}.gms-hero p{font-size:13px!important;max-width:290px!important;margin-bottom:22px!important}.gms-hero .gms-hero-cta{font-size:14px!important;padding:13px 19px!important}.gms-hero:before{width:250px;height:165px;right:-135px;bottom:-105px}.gms-hero:after{width:260px;height:160px;right:-145px;bottom:-128px}}
