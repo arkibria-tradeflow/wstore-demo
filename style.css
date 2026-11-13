@@ -439,3 +439,56 @@ body{padding-bottom:calc(72px + env(safe-area-inset-bottom))!important}
 body:has(#basketbar a) .sitefooter{padding-bottom:82px!important}
 .common-footer-bottom{margin-bottom:0}
 }
+
+/* Compact enquiry review */
+.iq-page{max-width:700px;margin:0 auto;color:#263d32}
+.iq-topline{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:18px}
+.iq-topline>a{font-size:12px;color:#267754;min-height:36px;display:flex;align-items:center}
+.iq-step{font-size:9px;letter-spacing:1px;font-weight:700;color:#89968b;white-space:nowrap}
+.iq-heading{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.iq-page h1{font-size:28px!important;letter-spacing:-.8px!important;line-height:1.2!important;margin:0!important}
+.iq-heading>span{font-size:11px;color:#77867a;white-space:nowrap}
+.iq-intro{font-size:12px;line-height:1.7;color:#829084;margin:8px 0 18px}
+.iq-items{border:1px solid #e1e8e2;border-radius:14px;overflow:hidden;background:#fff}
+.iq-row{display:flex;gap:14px;padding:16px;margin:0;border-bottom:1px solid #edf1ec;align-items:flex-start}
+.iq-row:last-child{border-bottom:0}
+.iq-photo{width:72px;height:84px;flex:0 0 72px;border-radius:9px;background:#f3f5f2;display:grid;place-items:center;overflow:hidden}
+.iq-photo img{display:block;width:100%;height:100%;object-fit:contain}
+.iq-photo>span{font-size:9px;color:#9aa59c}
+.iq-info{flex:1;min-width:0}
+.iq-info h2{font-size:13px!important;line-height:1.5!important;letter-spacing:0!important;margin:0 0 4px!important;font-weight:700;overflow-wrap:anywhere}
+.iq-sku{font-size:9px;color:#94a095}
+.iq-row-actions{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:10px}
+.iq-quantity{display:flex;align-items:center;gap:7px}
+.iq-quantity>span{font-size:10px;color:#8b988e}
+.iq-page .stepper{display:flex;align-items:center;border:1px solid #dce6de;border-radius:8px;background:#fff;overflow:hidden;height:36px;padding:0;gap:0;color:#2d6d4a}
+.iq-page .stepper button{width:38px;height:36px;min-width:0;padding:0;border:0;background:#f5f8f4;font-size:18px;color:#377750;display:grid;place-items:center}
+.iq-page .stepper b{min-width:33px;text-align:center;font-size:12px;font-weight:700}
+.iq-remove{border:0;background:transparent;color:#9b7d73;font-size:10px;padding:8px 0 8px 8px;min-height:36px}
+.iq-note{font-size:10px;line-height:1.5;color:#899489;margin:7px 0 0;overflow-wrap:anywhere}
+.iq-message{display:block;font-size:12px;font-weight:600;margin-top:20px}
+.iq-message>span{font-size:10px;font-weight:400;color:#929d94;margin-left:6px}
+.iq-message textarea{display:block;width:100%;margin-top:9px;min-height:74px;border:1px solid #dfe7e0;border-radius:10px;padding:12px;font-size:16px;line-height:1.5;resize:vertical;background:#fff;color:#344c3d;font-weight:400}
+.iq-reassurance{font-size:10px;line-height:1.6;color:#8a978d;margin:11px 0 18px}
+.iq-checkout{display:flex;justify-content:space-between;align-items:center;gap:14px;padding:16px 0;border-top:1px solid #e3eae3;background:white}
+.iq-checkout>div{display:flex;flex-direction:column;gap:4px}
+.iq-checkout b{font-size:13px}.iq-checkout span{font-size:10px;color:#8b978d}
+.iq-primary{display:inline-flex;align-items:center;justify-content:center;gap:18px;background:#187b54;color:white!important;border-radius:10px;min-height:46px;padding:12px 20px;font-size:12px;font-weight:700}
+.iq-primary svg{width:18px;height:18px}
+.iq-empty{text-align:center;padding:35px 15px}
+.iq-empty .iq-step{display:block;margin-bottom:12px}
+.iq-empty-symbol{width:60px;height:60px;border-radius:50%;background:#eef6ee;color:#237a50;display:grid;place-items:center;margin:28px auto 18px}
+.iq-empty-symbol svg{width:28px;height:28px}
+.iq-empty h2{font-size:20px;margin:0 0 10px}.iq-empty p{font-size:12px;line-height:1.8;color:#859184;max-width:280px;margin:0 auto 20px}
+@media(max-width:600px){
+main:has(.iq-page){padding:12px 16px 12px!important}
+.iq-page h1{font-size:24px!important}
+.iq-topline{margin-bottom:12px}.iq-topline>a{font-size:11px}
+.iq-heading>span{font-size:10px}.iq-intro{font-size:11px;margin-bottom:14px}
+.iq-row{padding:13px 12px;gap:11px}
+.iq-photo{width:60px;height:76px;flex-basis:60px}
+.iq-info h2{font-size:12px!important}
+.iq-checkout{position:fixed;bottom:calc(72px + env(safe-area-inset-bottom));left:0;right:0;z-index:9;padding:12px 18px;box-shadow:0 -5px 22px #193d2508}
+.iq-primary{gap:12px;padding:12px 18px}
+body:has(.iq-checkout) .sitefooter{padding-bottom:100px!important}
+}
