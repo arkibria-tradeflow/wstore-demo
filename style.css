@@ -554,3 +554,41 @@ body:has(.iq-checkout) .sitefooter{padding-bottom:100px!important}
 .ct-submit svg:last-child{width:16px;margin-left:3px}
 .ct-send-note{text-align:center;font-size:10px;line-height:1.7;color:#929c8e;margin:10px 0 0}
 @media(max-width:600px){main:has(.ct-page){padding:12px 18px 15px!important}.ct-page h1{font-size:25px!important}.ct-top{margin-bottom:12px}.ct-intro{font-size:11px;margin-bottom:15px}.ct-basket{margin-bottom:17px}.ct-required{gap:13px}.ct-optional{margin-top:16px}}
+
+/* Compact ready-to-send summary */
+.ready-page{max-width:620px;margin:0 auto;color:#2c4135}
+.ready-heading{display:flex;align-items:center;gap:12px;margin-bottom:17px}
+.ready-check{display:grid;place-items:center;width:42px;height:42px;flex:0 0 42px;border-radius:50%;color:#2a8051;background:#eaf5ec;font-size:24px;font-weight:600}
+.ready-page h1{font-size:26px!important;letter-spacing:-.8px!important;line-height:1.2!important;margin:0 0 5px!important}
+.ready-heading p{font-size:11px;color:#8b978b;margin:0;line-height:1.5}
+.ready-ref{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px 12px;background:#f5f8f3;border-radius:8px;font-size:10px;margin-bottom:14px}
+.ready-ref>span{color:#889682}.ready-ref b{font-size:10px;letter-spacing:.3px;color:#61785c;overflow-wrap:anywhere}
+.ready-send{display:flex;align-items:center;justify-content:center;gap:11px;background:#187d50;color:white;border-radius:10px;min-height:48px;padding:13px;font-size:13px;font-weight:700}
+.ready-send svg{width:20px;height:20px}.ready-send svg:last-child{width:16px}
+.ready-hint{text-align:center;font-size:10px;line-height:1.7;color:#919b8d;margin:9px 0 18px}
+.ready-summary,.ready-buyer{border:1px solid #e2e9de;border-radius:12px;background:#fff}
+.ready-section-head{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:13px;border-bottom:1px solid #e9eee5}
+.ready-page h2{font-size:12px!important;line-height:1.4!important;letter-spacing:0!important;margin:0!important;font-weight:700}
+.ready-section-head>span{font-size:9px;color:#8e9988;white-space:nowrap}
+.ready-product{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:12px 13px;border-bottom:1px solid #eef1e9}
+.ready-product:last-child{border:0}.ready-product>div{min-width:0}
+.ready-product b{display:block;font-size:11px;line-height:1.5;overflow-wrap:anywhere}
+.ready-product>div>span{display:block;font-size:9px;color:#95a08e;margin-top:3px}
+.ready-product p{font-size:10px;line-height:1.5;color:#839078;margin:5px 0 0}
+.ready-product strong{font-size:14px;color:#4c7253;min-width:32px;text-align:right}
+.ready-product strong small{display:block;font-size:9px;font-weight:400;color:#9ba491;margin-top:2px}
+.ready-buyer{margin-top:12px;padding:13px}
+.ready-buyer h2{margin-bottom:7px!important}
+.ready-buyer>p{font-size:11px;line-height:1.65;margin:3px 0;color:#7a8a71;overflow-wrap:anywhere}
+.ready-buyer>p b{font-weight:600;color:#4f6547}
+.ready-requirements{border-top:1px solid #edf0e7;margin-top:10px;padding-top:9px}
+.ready-requirements>span{font-size:9px;color:#97a08d}
+.ready-requirements p{font-size:11px;line-height:1.6;margin:4px 0 0;white-space:pre-wrap;overflow-wrap:anywhere}
+.ready-full{margin-top:12px;border:1px solid #e4eade;border-radius:9px}
+.ready-full summary{display:flex;justify-content:space-between;align-items:center;gap:10px;list-style:none;font-size:11px;color:#74866a;padding:12px;cursor:pointer;min-height:44px}
+.ready-full summary::-webkit-details-marker{display:none}
+.ready-full summary>span{font-size:18px;line-height:1}.ready-full[open] summary>span{transform:rotate(45deg)}
+.ready-full pre{white-space:pre-wrap;overflow-wrap:anywhere;font:11px/1.7 'DM Sans',sans-serif;color:#7a8771;padding:0 12px 12px;margin:0;text-align:left}
+.ready-back{display:flex;align-items:center;justify-content:center;gap:10px;min-height:44px;margin-top:7px;font-size:11px;color:#3c7850}
+.ready-back svg{width:15px;height:15px}
+@media(max-width:600px){main:has(.ready-page){padding:18px 16px 8px!important}.ready-page h1{font-size:24px!important}.ready-heading{margin-bottom:14px}.ready-section-head>span{font-size:9px}}
