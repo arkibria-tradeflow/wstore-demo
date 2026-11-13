@@ -373,3 +373,27 @@ main:has(.storefront){padding:12px 14px 80px!important;min-height:0!important}
 .sf-footer-top{flex-wrap:wrap}
 .sf-footer-links{margin-top:9px;justify-content:space-between;gap:12px;padding-bottom:6px}
 }
+
+/* Ordered business page: banner, square map, contact, socials, hours. */
+.sf-ordered{max-width:680px!important;margin:0 auto!important}
+.sf-ordered .sf-cover{border-radius:16px!important}
+.sf-square-location{margin-top:14px;border:1px solid #e1e8e2;border-radius:14px;overflow:hidden;background:white}
+.sf-ordered .sf-map{width:100%;height:auto!important;aspect-ratio:1/1;border:0;border-radius:0!important}
+.sf-ordered .sf-map iframe{display:block;width:100%;height:100%}
+.sf-ordered-address{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px 16px;font-size:11px;color:#607568;line-height:1.6}
+.sf-ordered-address>span{display:flex;gap:8px;align-items:center}.sf-ordered-address svg{width:17px;height:17px}
+.sf-ordered .sf-profile{margin-top:14px;border:1px solid #e1e8e2!important;border-radius:14px!important;padding:18px!important}
+.sf-ordered .sf-profile h1{font-size:25px!important}
+.sf-ordered .sf-actions{max-width:none}.sf-ordered .sf-actions a{flex:1}
+.sf-ordered-phone{display:block;text-align:center;font-size:11px;color:#748278;margin-top:12px}
+.sf-ordered-social{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:16px 2px;font-size:12px;color:#607568}
+.sf-ordered-social .sf-social-links{gap:8px}.sf-ordered-social .sf-social-links>a,.sf-ordered-social .sf-social-pending{width:40px;height:40px;border-radius:10px}
+.sf-opening{border:1px solid #e1e8e2;border-radius:14px;background:white;padding:18px}
+.sf-opening h2{display:flex;align-items:center;gap:9px;font-size:16px!important;margin:0 0 14px!important}
+.sf-opening h2 svg{width:19px;height:19px;color:#4a7e61}
+.sf-opening dl{margin:0}.sf-opening dl>div{display:flex;justify-content:space-between;gap:12px;font-size:12px;line-height:1.5;padding:10px 0;border-top:1px solid #edf1ed}
+.sf-opening dt{color:#718075}.sf-opening dd{margin:0;font-weight:500;text-align:right;color:#344e3e}
+.sf-opening p{font-size:10px;color:#8a948c;margin:12px 0 0;line-height:1.6}
+.sf-ordered-footer{display:flex;align-items:center;justify-content:space-between;gap:10px;font-size:10px;color:#859085;padding:18px 0}
+.sf-ordered-footer a{display:flex;align-items:center;gap:7px;color:#2c7050;font-weight:600;min-height:36px}.sf-ordered-footer svg{width:15px;height:15px}
+@media(max-width:600px){.sf-opening dl>div{font-size:11px;padding:9px 0}.sf-ordered .sf-profile{padding:16px!important}}
