@@ -397,3 +397,13 @@ main:has(.storefront){padding:12px 14px 80px!important;min-height:0!important}
 .sf-ordered-footer{display:flex;align-items:center;justify-content:space-between;gap:10px;font-size:10px;color:#859085;padding:18px 0}
 .sf-ordered-footer a{display:flex;align-items:center;gap:7px;color:#2c7050;font-weight:600;min-height:36px}.sf-ordered-footer svg{width:15px;height:15px}
 @media(max-width:600px){.sf-opening dl>div{font-size:11px;padding:9px 0}.sf-ordered .sf-profile{padding:16px!important}}
+
+.sf-hours-heading{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.sf-hours-heading h2{margin-bottom:0!important}
+.sf-open-state{font-size:9px;color:#7d7770;background:#f2f1ed;padding:5px 8px;border-radius:20px;white-space:nowrap}
+.sf-open-state.is-open{color:#176e47;background:#e9f5ed}
+.sf-zone-label{font-size:10px;color:#728379;margin:10px 0}
+.sf-time-toggle{display:flex;gap:4px;background:#f1f5f1;padding:3px;border-radius:8px;margin:0 0 12px}
+.sf-time-toggle button{flex:1;border:0;background:transparent;color:#718075;border-radius:6px;font-size:11px;padding:9px;min-height:36px}
+.sf-time-toggle button[aria-pressed="true"]{background:white;color:#236546;font-weight:700;box-shadow:0 1px 4px #193d2510}
+.sf-opening dt small,.sf-opening dd small{display:block;color:#89948c;font-size:9px;font-weight:400;margin-top:3px}
