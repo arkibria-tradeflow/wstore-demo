@@ -80,3 +80,6 @@ main{padding-top:8px}
 .catalog-info h3{font-size:13px}
 .catalog-actions{margin-top:5px}
 }
+
+/* Remove all introductory whitespace above product search on catalogue page */
+@media(max-width:600px){body:has(#grid) main{padding-top:0!important}body:has(#grid) header{height:72px!important;padding-top:8px!important;padding-bottom:8px!important}body:has(#grid) .compact-toolbar{margin-top:3px!important;margin-bottom:5px!important}body:has(#grid) .chips{margin-top:0!important;margin-bottom:3px!important}body:has(#grid) .catalog-head{margin:6px 0!important}body:has(#grid) .catalog-head h2{margin:0;font-size:16px}body:has(#grid) .catalog-list{gap:6px}}
